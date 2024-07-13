@@ -1,0 +1,72 @@
+body{
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+h1, h2{
+    text-align: center;
+}
+h1{
+    margin-bottom: 0;
+}
+.established{
+    text-align: center;
+    margin-top: 2px;
+    font-style: italic;
+}
+hr{
+    height: 2px;
+    background-color: black;
+}
+img{
+    /* this is how we make our image at centre */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    background-color: burlywood;
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    /* max width is used so that in elongated screen like laptop, our div tag don't get elongate, it should look like a list on enlogated screen also, so we fix its maxwidth, at rest of the screen, our image will shown up, maxwidth are generally given in px, because in % it has no meaning */
+    /* padding is used to create space between border and text, whereas margin is use to create space between two elements border */
+}
+
+.item, .price{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    display: inline-block;
+}
+.item{
+    width: 40%;
+    text-align: left;
+    margin-left: 20%;
+}
+.price{
+    width: 20%;
+    text-align: right;
+    margin-right: 20%;
+}
+
+a{ /*this is how we display a inline element at center of the line*/ 
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    color: black;
+}
+a:hover{
+    color: green;
+}
+a:visited{
+    color: blueviolet;
+}
+
+.foot{
+    font-style: oblique;
+    text-align: center;
+}
